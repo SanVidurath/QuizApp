@@ -4,6 +4,7 @@ import edu.icet.dto.Exam;
 
 import java.util.List;
 
+
 public interface ExamService {
     void createExam(Exam exam);
     Exam getExamByCourseId(Integer id);
